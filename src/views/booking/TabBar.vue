@@ -1,21 +1,20 @@
 <template>
   <!-- <ion-page> -->
-    <ion-content>
-      <ion-tabs class="footer-tab">
-        <ion-router-outlet></ion-router-outlet>
-        <ion-tab-bar slot="bottom">
-          <ion-tab-button tab="home" href="/home">
-            <ion-icon name="play-circle-outline"></ion-icon>
-            <ion-label>Upcoming</ion-label>
-          </ion-tab-button>
+  <ion-tabs class="footer-tab">
+    <ion-router-outlet></ion-router-outlet>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" href="/home">
+        <ion-icon name="play-circle-outline"></ion-icon>
+        <ion-label>Upcoming</ion-label>
+      </ion-tab-button>
 
-          <ion-tab-button tab="radio" href="/radio">
-            <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-            <ion-label>Completed</ion-label>
-          </ion-tab-button>
-        </ion-tab-bar>
-      </ion-tabs>
-    </ion-content>
+      <ion-tab-button tab="radio" href="/radio">
+        <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+        <ion-label>Completed</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
   <!-- </ion-page> -->
 </template>
   
@@ -45,9 +44,5 @@ export default defineComponent({
 });
 </script>
   
-<style scoped>
-ion-router-outlet{
-  height: 10px !important;
-}
-</style>
+<style scoped></style>
   
