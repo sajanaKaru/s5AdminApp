@@ -7,23 +7,23 @@
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
-      <ion-item>
-        <ion-label routerLink="/home">
+      <ion-item href="/home">
+        <ion-label>
           <code>HOME</code>
         </ion-label>
       </ion-item>
-      <ion-item>
-        <ion-label href="/booking">
+      <ion-item href="/booking">
+        <ion-label>
           <code>BOOKING</code>
         </ion-label>
       </ion-item>
-      <ion-item>
+      <ion-item href="/quote">
         <ion-label>
           <code>QUOTATION</code>
         </ion-label>
       </ion-item>
-      <ion-item>
-        <ion-label routerLink="/list">
+      <ion-item href="/list">
+        <ion-label>
           <code>USERS</code>
         </ion-label>
       </ion-item>
