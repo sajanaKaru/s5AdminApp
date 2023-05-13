@@ -4,6 +4,7 @@ import HomePage from '@/views/HomePage.vue';
 import MyList from '@/views/MyList.vue';
 import MyBooking from '@/views/booking/MyBooking.vue';
 import MyQuotation from '@/views/quote/MyQuotation.vue';
+import QuoteDetails from '@/views/quote/QuoteDetails.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -29,6 +30,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/quote',
     name: 'MyQuotation',
     component: MyQuotation
+  },
+  {
+    path: '/quote-details',
+    name: 'QuoteDetails',
+    component: QuoteDetails
   }
 ]
 

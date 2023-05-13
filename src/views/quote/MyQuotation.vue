@@ -11,7 +11,7 @@
                 </ion-card-header>
                 <ion-card-content class="rmv-p-b"> {{ item.description }} </ion-card-content>
                 <div class="acn-btn">
-                    <ion-button size="small" color="warning"><ion-icon name="eye-outline"></ion-icon></ion-button>
+                    <ion-button size="small" color="warning" href="/quote-details"><ion-icon name="eye-outline"></ion-icon></ion-button>
                     <ion-button size="small" color="medium"><ion-icon name="calendar-outline"></ion-icon></ion-button>
                     <ion-button size="small" color="secondary"><ion-icon name="cash-outline"></ion-icon></ion-button>
                     <ion-button size="small" color="light"><ion-icon name="create-outline"></ion-icon></ion-button>
@@ -28,6 +28,7 @@
 
 import { defineComponent } from "vue";
 import myHeader from "@/views/shared/myHeader.vue";
+import QuoteDetails from "@/views/quote/QuoteDetails.vue";
 import { IonPage, IonTabs, IonRouterOutlet, IonTabBar, IonTabButton, IonLabel, IonIcon } from '@ionic/vue';
 
 import {
@@ -227,6 +228,7 @@ export default defineComponent({
   methods: {},
   components: {
     myHeader,
+    QuoteDetails,
     IonButton,
     IonCard,
     IonCardContent,
